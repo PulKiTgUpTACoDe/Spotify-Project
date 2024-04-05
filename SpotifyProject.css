@@ -479,7 +479,7 @@ html::-webkit-scrollbar{
 }
 :is(
     .next,
-    .previos,
+    .previous,
     .playMusicButton,
     .shuffle,
     .repeat,
