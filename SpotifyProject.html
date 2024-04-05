@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify</title>
+    <link rel="stylesheet" href="SpotifyProject.css" />
+  </head>
+  <body>
+    <script src="SpotifyProject.js"></script>
+
+    <!-- Left div -->
+
+    <div class="left">
+      <!-- Left Up div  -->
+
+      <div class="left-up">
+        <div class="cross"></div>
+        <div class="spotify-logo">
+          <div id="spotify-logo"></div>
+          <p id="Spotify">Spotify</p>
+        </div>
+        <div class="home">
+          <div id="home"></div>
+          <p>Home</p>
+        </div>
+        <div class="search">
+          <div id="search"></div>
+          <p>Search</p>
+        </div>
+      </div>
+
+      <!-- Left down div -->
+
+      <div class="left-down">
+        <div class="library-nav">
+          <div id="lib-icon">
+            <svg
+              data-encore-id="icon"
+              role="img"
+              aria-hidden="true"
+              viewBox="0 0 24 24"
+              class="Svg-sc-ytk21e-0 bneLcE"
+            >
+              <path
+                d="M3 22a1 1 0 0 1-1-1V3a1 1 0 0 1 2 0v18a1 1 0 0 1-1 1zM15.5 2.134A1 1 0 0 0 14 3v18a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V6.464a1 1 0 0 0-.5-.866l-6-3.464zM9 2a1 1 0 0 0-1 1v18a1 1 0 1 0 2 0V3a1 1 0 0 0-1-1z"
+              ></path>
+            </svg>
+          </div>
+          <p>Your Library</p>
+          <div class="plus-sign"></div>
+        </div>
+
+        <!-- List of songs -->
+
+        <div class="songList">
+          <ul></ul>
+        </div>
+
+        <!-- Links  -->
+
+        <div class="links">
+          <a href="">Legal</a>
+          <a href="">Safety & Privacy Center</a>
+          <a href="">Privacy Policies</a>
+          <a href="">Cookies</a>
+          <a href="">About ads</a>
+          <a href="">Accesibility Cookies</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="right">
+      <header>
+        <div class="navbar">
+          <div class="hamburger"></div>
+          <div class="nav-left"></div>
+          <div class="nav-right"></div>
+          <button class="Sign_Up">Sign Up</button>
+          <button class="Login">Log in</button>
+        </div>
+      </header>
+      <main>
+        <div class="SpotifyPlaylists scroll-track">
+          <h1>Spotify Playlists</h1>
+          <div class="card-container">
+           
+          </div>
+        </div>
+      </main>
+      <footer>
+        <div class="playMusic">
+          <div class="aboveSeek">
+            <div class="Info"></div>
+            <div class="plyBtns">
+              <div class="shuffle"></div>
+              <div id="previous" class="previous playconfig"></div>
+              <div
+                id="playMusicButton"
+                class="playMusicButton playconfig"
+              ></div>
+              <div id="next" class="next playconfig"></div>
+              <div class="repeat"></div>
+            </div>
+            <div class="timevol">
+              <div class="Time"></div>
+              <div class="volume">
+                <img>
+                <div class="range">
+                  <input type="range" name="volume" id="ran">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="seekbar">
+            <div class="circle"></div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
